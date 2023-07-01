@@ -2,8 +2,8 @@
 
 /* 
 paleta de cores 
-lilas: #F196FF
-verde: #2DEB46
+marrom: #B15222
+azul: #75F0FF, #ABFFF5
 rosé: #E06E8C ou #91465A
 */
 
@@ -41,7 +41,9 @@ body, html {
     top: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-
+    
+    transition: width 0.7s, height 0.7s;
+    transition-timing-function: ease;
 
  }
  section#login > div#img {
