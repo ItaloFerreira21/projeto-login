@@ -6,3 +6,54 @@ lilas: #F196FF
 verde: #2DEB46
 rosé: #E06E8C ou #91465A
 */
+
+/*VISÃO PARA CELULAR*/
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body, html {
+    background-color: #91465A;
+    height: 100vh;
+    width: 100vw;
+
+}
+ main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+ }
+ section#login {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.463);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+
+ }
+ section#login > div#img {
+    display: block;
+    background: #91465A url(../imagens/foto-login.jpg)no-repeat;
+    background-size: cover;
+    background-position: center, center;
+    height: 200px;
+ }
+
+ section#login > div#formulario {
+    display: block;
+    padding: 10px;
+
+ }
