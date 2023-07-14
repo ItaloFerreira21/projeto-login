@@ -10,6 +10,7 @@ versão para desktop: 992px ate 1200px */
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#img { /* imagem a esquerda*/
@@ -35,6 +36,7 @@ versão para desktop: 992px ate 1200px */
 
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#img { /* imagem a direita*/
